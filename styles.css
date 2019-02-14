@@ -1,0 +1,207 @@
+* {
+	margin: 0;
+	padding: 0;    
+}
+/*div{
+border:solid red 1px;
+
+}*/
+.clearfix:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+body {
+    background:#271a10;
+    font:normal 12px/22px Ariel,sans-serif;
+    color:black;
+    margin-top:109px;
+}
+.download {
+    width:218px;
+    height:74px;
+    top:0;
+    left:55%;
+    position:absolute;
+    background:url(img/download.png) no-repeat 0px 0px;
+}
+#download {
+    display:block;
+    text-indent: -10000px;
+    vertical-align: middle;
+}
+.wrap {
+    width:740px;
+    margin:auto;
+}
+.header {
+    width:726px;
+    height:89px;
+    background:url(img/header.png) no-repeat 0px 0px;
+   
+}
+@font-face {
+    font-family:ArchitectsDaughter ; /* ��������� ������ */
+    src: local('ArchitectsDaughter'),
+    url('fonts/ArchitectsDaughter.ttf'),
+    url('fonts/ArchitectsDaughter.woff') format("woff"),/* IE 9+*/
+    url('fonts/ArchitectsDaughter.eot');/* IE 6-8 */
+}
+
+.menu_top {
+    float:right;
+    height:33px;
+    padding-right: 80px;
+    margin-top:15px;
+}
+.menu_top ul {
+    list-style-type: none;
+}
+.menu_top ul li {
+    float:left;      
+}
+/* ��� IE*/
+a, img  {    
+    outline:none;
+    border:none;
+}
+
+.menu_top ul  li a {
+	color: #b60f0f;
+    height:22px;
+	font:normal 14px/22px ArchitectsDaughter,sans-serif;
+    text-decoration: none;
+    display: block;
+    padding:12px;
+   
+}
+
+.menu_top ul  li .active {
+    border:#cacaca 1px solid;
+    -webkit-box-shadow:1px 1px 1px #e2e2e2;
+    -moz-box-shadow:1px 1px 1px #e2e2e2;
+    box-shadow: 1px 1px 1px #e2e2e2
+
+}
+.content {
+    background:white;
+    width:665px;
+    padding-right:61px;
+  
+}
+
+#foto img {
+	border: 1px solid #dcdcdc;
+    -webkit-box-shadow:1px 0 0px #e8e8e8;
+    -moz-box-shadow:1px 0 0px #e8e8e8;
+    box-shadow: -1px 1px 0px #e8e8e8;
+
+}
+.logo {
+    height:57px;
+    width:195px;
+    float:left;
+    margin-left:17px;
+    border-bottom:1px dotted #c5c5c5;
+}
+
+.logo > h1 {
+	font: normal 29px/27px ArchitectsDaughter,sans-serif;
+	color: black;
+}
+.logo > h2 {
+    font: bold 16px/27px Trebuchet MS,sans-serif;
+    color:#b60f0f;
+}
+.logo > h3 {
+    font: normal 12px/17px Ariel,sans-serif;
+    color:#7f7f7f;    
+    padding-top:8px;
+}
+.left_col {
+    float:left;
+    width:163px;
+    padding:28px 26px 0 0 ;
+
+}
+.left_col > p {
+    float:right;
+    font: bold 16px/27px Trebuchet MS,sans-serif;
+    color:#878787;
+}
+.center_col {
+    width:475px;
+    float:left;
+    border-left:1px solid #f6f6f6;
+}
+.center_col >div{
+    border-bottom:1px dotted #c5c5c5;
+    padding:28px 0 26px 0;
+    margin-left:19px;
+}
+#awards >.center_col >div{
+    border:none;
+
+}
+ span {
+    color:#2f2f2f;
+}
+
+.other_color{
+    color:#b60f0f;
+    font-weight:bold;
+}
+
+.italic {
+    color:#7e7e7e;
+    font-style:italic;
+}
+
+div > ul {
+    list-style-position: outside;
+    list-style-type: none;
+}
+
+.center_col ul li:before{
+    content: '';
+	background: url(img/marker_pink.png) no-repeat 0 0;
+	width: 9px;
+	height: 9px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 14px;
+}
+.footer {
+   margin-top:-76px;
+   position:relative;
+   z-index:-1;
+   height:112px;
+   width:739px;
+   background:url(img/footer.png) no-repeat 0px 0px;
+   float:left;
+}
+
+.menu_bottom ul {
+    list-style-type: none;
+}
+.menu_bottom ul > li {
+    float:left;
+  
+}
+.menu_bottom ul  li > a {
+	color: #bfbbb8;
+    height:22px;
+	font:normal 14.05px/27px Ariel,sans-serif;
+    text-decoration: none;
+    display: block;
+    padding: 69px 19px 19px 3px;
+
+}
+div.connect{
+    border:none;
+}
+
+
+.error {   
+    color:red;
+}

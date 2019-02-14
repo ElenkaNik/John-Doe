@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>about</title>
+        <meta charset="utf-8" />
+        <link href="build/all.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="download">
+            <a id="download" href="files/JD_pdf.zip">Download</a>
+        </div>
+        <div class="wrap">
+            <div class="header">
+                <div class="menu_top">
+                    <ul>
+                        <li><a id="resume" href="index.html">Resume</a></li>
+                        <li><a id ="about" href="index.html">About</a></li>
+                        <li><a id ="connect" href="index.html" class="active">Connect</a></li>
+                        <li><a id ="contact" href="index.html">Contact</a></li>
+                    </ul>
+                </div>               
+            </div>
+            <div class="clearfix"></div>
+            <div class="content">                                      
+                <div class="left_col">
+                    <p>Duis me!</p>
+                </div>
+                <div class="center_col">
+                    <div class="connect">
+                        <form  id="form" class=" form" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post">
+                            <ul>
+                                <li id="form1" class="notranslate">
+                                    <label class="desc" id="title1" for="Field1">
+                                        Nomen
+                                    </label>
+                                    <div>
+                                        <input id="Field1"  name="Field1" type="text" class="field text fn" value="" size="8" tabindex="1"  onblur="validateName();" />
+                                    </div>
+                                    <p class="error"></p>
+                                </li>
+
+                                <li id="form3" class="notranslate">
+                                    <label class="desc" id="title3" for="Field3">
+                                        Email
+                                    </label>
+                                    <div>
+                                        <input id="Field3"  name="Field3" type="email" spellcheck="false" class="field text medium" value="" maxlength="255" tabindex="3" onblur="validateEmail();" />
+                                    </div>
+                                    <p class="error"></p>
+                                </li>
+                                
+                                <li id="form4" class="notranslate ">    
+                                    <label class="desc" id="title4" for="Field4">
+                                        Nuntii
+                                    </label>
+                                    <div>
+                                        <textarea id="Field4" name="Field4" class="field textarea medium" spellcheck="true" rows="10" cols="50" tabindex="4" onblur="validateMessage();"></textarea>
+                                    </div>
+                                    <p class="error"></p>
+                                </li>
+                                
+                                <li class="buttons">
+                                    <div>                                       
+                                        <input id="saveForm" name="saveForm" class="btTxt submit" type="submit" value="Submitto" />
+                                    </div>
+                                </li>   
+                            </ul>
+                        </form>
+                        <p id="status" class="error"></p>
+                    </div>                        
+                </div>                        
+                <div class="clearfix"></div>            
+            </div>           
+            <div class="footer"></div>              
+            <div class="menu_bottom">
+                <ul>
+                    <li><a href="index.html">Resume</a></li>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="index.html">Connect</a></li>
+                    <li><a href="index.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="./build/form.js"></script>
+    </body>
+</html>
