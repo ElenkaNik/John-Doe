@@ -1,5 +1,5 @@
 let gulp = require('gulp'),
-    uglify = require('gulp-uglify-es').default;
+    uglify = require('gulp-uglify-es').default,
     concat = require('gulp-concat');
 
 gulp.task('minify', function () {
